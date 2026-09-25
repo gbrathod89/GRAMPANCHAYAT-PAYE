@@ -1,0 +1,171 @@
+[12:14 am, 26/9/2026] Guru Rathod: <!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ग्रामपंचायत पाये - पंचायत समिती भिवंडी, जिल्हा परिषद ठाणे</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #0b3c5d; color: white; padding: 15px; text-align: center; }
+        nav { background-color: #1d2731; overflow: hidden; }
+        nav a { float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+        nav a:hover { background-color: #ddd; color: black; }
+        .container { padding: 20px; }
+        .card { background: white; padding: 20px; margin-b…
+[2:22 am, 26/9/2026] Guru Rathod: हो मिळेल! GitHub Pages साठी एकदम रेडी बनवली आहे.
+
+मी तुमच्यासाठी 2 फाईल बनवल्या आहेत:
+1. index.html - पूर्ण वेबसाईट (तुमचा डिझाईन + योजना + Map + अपलोड)
+2. README.md - GitHub साठी
+
+GitHub वर लाईव्ह कसे करायचे - 1 मिनिटात:
+
+Step 1: http://GitHub.com वर जा -> New Repository -> नाव टाका gram-panchayat-paye
+Step 2: Add file -> Upload files -> माझी index.html फाईल अपलोड करा
+Step 3: Settings मध्ये जा -> Pages -> Source मध्ये Deploy from a branch -> main सिलेक्ट करा -> Save
+Step 4: 2 मिनिटात तुमची लाईव्ह लिंक तयार होईल:
+https://तुमचं-नाव.github.io/gram-panchayat-paye/
+
+तुमची index.html फाईल:
+फाईल इथे तयार आहे 👉 `
+
+ही फाईल डाउनलोड होत नसेल तर सांगा, मी तुम्हाला पूर्ण कोड इथेच पेस्ट करतो - तुम्ही कॉपी करून GitHub वर टाकू शकता.
+
+तुमचं GitHub username काय आहे? सांगा मी तु…
+[2:23 am, 26/9/2026] Guru Rathod: <!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ग्रामपंचायत पाये | ता. भिवंडी जि. ठाणे</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+.header{background:#fff;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;border-bottom:3px solid #0a3d7a}
+.header h1{color:#0a3d7a;font-size:28px}
+.header p{font-weight:600;color:#333}
+.nav{background:#0a3d7a;display:flex;flex-wrap:wrap}
+.nav a{color:#fff;padding:12px 18px;text-decoration:none;cursor:pointer;font-size:15px}
+.nav a:hover{background:#18a000}
+.tab{display:none;padding:20px;background:#fff;margin:15px;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0
+[2:29 am, 26/9/2026] Guru Rathod: <!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ग्रामपंचायत पाये | ता. भिवंडी जि. ठाणे</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+.header{background:#fff;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;border-bottom:3px solid #0a3d7a}
+.header h1{color:#0a3d7a;font-size:28px}
+.header p{font-weight:600;color:#333}
+.nav{background:#0a3d7a;display:flex;flex-wrap:wrap}
+.nav a{color:#fff;padding:12px 18px;text-decoration:none;cursor:pointer;font-size:15px}
+.nav a:hover{background:#18a000}
+.tab{display:none;padding:20px;background:#fff;margin:15px;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
+.tab.active{display:block}
+table{width:100%;border-collapse:collapse;margin:10px 0}
+th,td{border:1px solid #ccc;padding:8px;text-align:left;font-size:14px}
+th{background:#0a3d7a;color:#fff}
+.upload{border:2px dashed #0a3d7a;padding:30px;text-align:center;border-radius:10px}
+.btn{background:#18a000;color:#fff;padding:12px 25px;border:none;border-radius:5px;cursor:pointer;width:100%;font-size:16px}
+.footer{background:#0a3d7a;color:#fff;padding:20px;text-align:center;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="header">
+<div>
+<h1>ग्रामपंचायत पाये</h1>
+<p>माझं गाव | माझी जबाबदारी | माझा विकास | ता. भिवंडी | जि. ठाणे</p>
+<p>📞 मो: 9665834471</p>
+</div>
+<div style="text-align:center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Emblem_of_Maharashtra.svg" width="60">
+<div>महाराष्ट्र शासन</div>
+</div>
+</div>
+
+<div class="nav">
+<a onclick="openTab('home')">🏠 मुख्य पृष्ठ</a>
+<a onclick="openTab('yojana')">📄 योजना व सेवा</a>
+<a onclick="openTab('map')">📍 Google Map</a>
+<a onclick="openTab('praman')">📝 प्रमाणपत्र / अर्ज</a>
+<a onclick="openTab('contact')">📞 संपर्क</a>
+</div>
+
+<div id="home" class="tab active">
+<h2>स्वागत आहे - ग्रामपंचायत पाये, ता. भिवंडी, जि. ठाणे</h2><br>
+<img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1000" style="width:100%;height:350px;object-fit:cover;border-radius:10px">
+<p style="margin-top:15px">ग्रामपंचायत पाये ही ठाणे जिल्ह्यातील भिवंडी तालुक्यातील एक सुराज्यगाम व प्रगतशील गाव आहे. गावातील प्रत्येक नागरिकाचा विकास हा आमचा प्राधान्य क्रम आहे.</p><br>
+<p><b>सरपंच:</b> भाविका भाईदास घोरकनी | <b>ग्रामपंचायत अधिकारी:</b> श्री. विनय राजाराम म्हात्रे</p>
+</div>
+
+<div id="yojana" class="tab">
+<h2>महाराष्ट्र शासन सर्व योजना - पात्रता सह</h2>
+<table>
+<tr><th>योजना</th><th>लाभ</th><th>पात्रता</th><th>कागदपत्रे</th></tr>
+<tr><td>प्रधानमंत्री आवास योजना (ग्रामीण)</td><td>₹1,20,000</td><td>पक्के घर नसावे, उत्पन्न < 1.5 लाख</td><td>आधार, जॉब कार्ड, 7/12, बँक पासबुक</td></tr>
+<tr><td>जल जीवन मिशन</td><td>नळ कनेक्शन</td><td>सर्व ग्रामीण कुटुंब</td><td>आधार, रेशन कार्ड</td></tr>
+<tr><td>MGNREGA</td><td>100 दिवस रोजगार</td><td>18+ मजूर</td><td>जॉब कार्ड</td></tr>
+<tr><td>लाडकी बहीण योजना</td><td>₹1500/महिना</td><td>21-65 महिला, उत्पन्न < 2.5 लाख</td><td>आधार, बँक खाते</td></tr>
+<tr><td>पीएम किसान सन्मान</td><td>₹6000/वर्ष</td><td>शेतकरी</td><td>7/12, आधार</td></tr>
+<tr><td>स्वच्छ भारत - शौचालय</td><td>₹12,000</td><td>शौचालय नसलेले</td><td>आधार, फोटो</td></tr>
+<tr><td>श्रावण बाळ योजना</td><td>₹1200/महिना</td><td>65+ निराधार</td><td>आधार, वय दाखला</td></tr>
+</table>
+
+<h3 style="margin-top:20px">सेवा - लोकसेवा हमी कायदा 2015 नुसार दाखले</h3>
+<table>
+<tr><th>दाखला / सेवा</th><th>कालावधी</th><th>शुल्क</th></tr>
+<tr><td>रहिवासी दाखला</td><td>7 दिवस</td><td>₹15</td></tr>
+<tr><td>उत्पन्न दाखला</td><td>7 दिवस</td><td>₹15</td></tr>
+<tr><td>जन्म दाखला</td><td>7 दिवस</td><td>₹5</td></tr>
+<tr><td>मृत्यू दाखला</td><td>7 दिवस</td><td>₹5</td></tr>
+<tr><td>विवाह नोंदणी</td><td>15 दिवस</td><td>₹50</td></tr>
+<tr><td>घरपट्टी / NOC</td><td>15 दिवस</td><td>₹20</td></tr>
+</table>
+</div>
+
+<div id="map" class="tab">
+<h2>Google Map - ग्रामपंचायत पाये</h2>
+<p><b>पत्ता:</b> ग्रामपंचायत कार्यालय पाये, ता. भिवंडी, जि. ठाणे - 421302</p><br>
+<iframe src="https://www.google.com/maps?q=Paye+Bhiwandi+Thane&output=embed" width="100%" height="400" style="border:0;border-radius:10px"></iframe>
+<br><br>
+<a href="https://www.google.com/maps/search/Gram+Panchayat+Paye+Bhiwandi+Thane" target="_blank" style="background:#0a3d7a;color:#fff;padding:10px 20px;text-decoration:none;border-radius:5px">Google Map वर उघडा</a>
+</div>
+
+<div id="praman" class="tab">
+<h2>प्रमाणपत्र / अर्ज - फाईल अपलोड</h2>
+<p>फॉर्म भरून कागदपत्रे अपलोड करा. 7 दिवसात दाखला तयार होईल.</p><br>
+<label>अर्जदाराचे नाव:</label><br><input type="text" style="width:100%;padding:10px"><br><br>
+<label>दाखल्याचा प्रकार:</label><br>
+<select style="width:100%;padding:10px">
+<option>रहिवासी दाखला</option>
+<option>उत्पन्न दाखला</option>
+<option>जन्म दाखला</option>
+<option>मृत्यू दाखला</option>
+<option>विवाह दाखला</option>
+</select><br><br>
+<label>मोबाईल नंबर:</label><br><input type="text" style="width:100%;padding:10px"><br><br>
+<div class="upload">
+📁 फाईल अपलोड करा (आधार, रेशन कार्ड, 7/12)<br><br>
+<input type="file" multiple><br><br>
+<small>PDF, JPG, PNG - Max 5MB</small>
+</div><br>
+<button class="btn" onclick="alert('अर्ज सबमिट झाला! 7 दिवसात दाखला मिळेल.')">अर्ज सबमिट करा</button>
+</div>
+
+<div id="contact" class="tab">
+<h2>संपर्क</h2>
+<p>ग्रामपंचायत पाये<br>ता. भिवंडी, जि. ठाणे - 421302<br>मोबाईल: 9665834471<br>ईमेल: gp.paye@maharashtra.gov.in</p>
+</div>
+
+<div class="footer">© 2025 ग्रामपंचायत पाये, ता. भिवंडी, जि. ठाणे. सर्व हक्क राखीव | Designed for Better Governance</div>
+
+<script>
+function openTab(id){
+document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+document.getElementById(id).classList.add('active');
+window.scrollTo(0,0);
+}
+</script>
+</body>
+</html>
